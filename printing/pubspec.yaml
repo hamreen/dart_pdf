@@ -33,7 +33,7 @@ dependencies:
   pdf: 
     path: ../pdf
   pdf_widget_wrapper: 
-    path: ../pdf_widget_wrapper
+    path: ../widget_wrapper
   plugin_platform_interface: ^2.1.0
   web: ^1.0.0
 
