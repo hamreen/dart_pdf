@@ -1,8 +1,9 @@
-name: pdf
-description: A pdf producer for Dart. It can create pdf files for both web or flutter.
-homepage: https://github.com/DavBfr/dart_pdf/tree/master/pdf
-repository: https://github.com/DavBfr/dart_pdf
-issue_tracker: https://github.com/DavBfr/dart_pdf/issues
+name: kurdish_pdf
+description: A customized PDF package with support for Kurdish fonts and text rendering.
+homepage: https://github.com/hamreen/dart_pdf/tree/master/pdf
+repository: https://github.com/hamreen/dart_pdf
+issue_tracker: https://github.com/hamreen/dart_pdf/issues
+version: 1.0.0
 screenshots:
   - description: 'Example of a generated document'
     path: example.jpg
