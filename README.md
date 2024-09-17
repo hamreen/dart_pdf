@@ -1,17 +1,30 @@
-# Pdf for Dart and Flutter
+# Kurdish PDF for Dart and Flutter
 
-![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![codecov](https://codecov.io/gh/DavBfr/dart_pdf/branch/master/graph/badge.svg)](https://codecov.io/gh/DavBfr/dart_pdf)
+![Dart CI](https://github.com/hamreen/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/kurdish_pdf.svg)](https://pub.dartlang.org/packages/kurdish_pdf)
 
-This set of plugins allows Flutter apps to generate and print pdf files to the device printer. This plugin works for iOS and Android.
+This package allows Flutter apps to generate and print PDF files with custom support for Kurdish text and fonts. The package has been modified to work seamlessly with right-to-left languages like Kurdish (Sorani) and Arabic, as well as left-to-right languages like English.
 
-- dart pdf: <https://pub.dev/packages/pdf>
-- flutter printing: <https://pub.dev/packages/printing>
-- Live Demo: <https://davbfr.github.io/dart_pdf/>
+## Features
+- Generate PDF files with support for Kurdish, Arabic, and English text.
+- Right-to-left (RTL) and left-to-right (LTR) text direction handling.
+- Full font and style customizations for multilingual invoices and reports.
+- Works across platforms: iOS, Android, Web, and Desktop.
 
-[![Buy Me A Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png "Buy Me A Coffee")](https://www.buymeacoffee.com/JORBmbw9h "Buy Me A Coffee")
+## Packages
+- **kurdish_pdf**: <https://pub.dev/packages/kurdish_pdf>
+- **kurdish_printing**: <https://pub.dev/packages/kurdish_printing>
 
-## Contributing
+## How to Use
+To get started, add the package to your `pubspec.yaml`:
+```yaml
+dependencies:
+  kurdish_pdf: ^1.0.0
+  kurdish_printing: ^1.0.0
 
-Follow the instructions here: [contributing](CONTRIBUTING.md).
 
-A Makefile is available on the project root directory to download and prepare the dependencies.
+### Instructions:
+1. Copy this code into your `README.md` file.
+2. Update the live demo and package links once you publish them on pub.dev.
+3. Ensure the badges and links reflect your GitHub or other hosting locations.
+
+Let me know if anything else needs tweaking!
