@@ -105,6 +105,14 @@ const Map<int, dynamic> _arabicSubstitionA = <int, dynamic>{
   0x06D0: <int>[0xFBE4, 0xFBE5, 0xFBE6, 0xFBE7], //ARABIC LETTER E
   0x06D2: <int>[0xFBAE, 0xFBAF], // ARABIC LETTER YEH BARREE
   0x06D3: <int>[0xFBB0, 0xFBB1], // ARABIC LETTER YEH BARREE WITH HAMZA ABOVE
+
+    // Kurdish characters isolated, final, initial, medial
+  // U+06D5: KURDISH "ە"
+  0x06D5: <int>[0x06D5, 0xE000],
+  // U+06CE: KURDISH "ێ"
+  0x06CE: <int>[0x06CE, 0xE004, 0xE005, 0xE006],
+  // U+06B5: KURDISH "ڵ"
+  0x06B5: <int>[0x06B5, 0xE007, 0xE008, 0xE009],
 };
 
 /*
