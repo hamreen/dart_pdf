@@ -13,11 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  pdf:
-    git:
-      url: https://github.com/hamreen/dart_pdf
-      ref: master    # Specify the branch if necessary
-      path: pdf
+  #pdf: ^3.10.0
 
 dependency_overrides:
   pdf:
